@@ -1,0 +1,32 @@
+{
+  "name": "olive-notice",
+  "version": "0.0.1",
+  "description": "olive-notice Github Action using olive-cli",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revfactory/olive-notice.git"
+  },
+  "keywords": [
+    "olive"
+  ],
+  "author": "revfactory",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/revfactory/olive-notice/issues"
+  },
+  "homepage": "https://github.com/revfactory/olive-notice#readme",
+  "dependencies": {
+    "@actions/core": "^1.8.0",
+    "axios": "^0.27.2",
+    "handlebars": "^4.7.6",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.25.1"
+  }
+}
