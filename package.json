@@ -23,10 +23,10 @@
   "dependencies": {
     "@actions/core": "^1.8.0",
     "axios": "^0.27.2",
-    "handlebars": "^4.7.6",
-    "lodash": "^4.17.15"
+    "handlebars": "^4.7.7",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.25.1"
+    "@vercel/ncc": "^0.33.4"
   }
 }
